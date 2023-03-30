@@ -3,10 +3,11 @@ function addUpto(n) {
     for (let i = 0; i <= n; i++) {
         total += i;
     }
+    console.log("this is userB");
     return total;
 }
 
-console.log(addUpto(10));
+console.log(addUpto(50));
 //add up to slower function
 //using loop, recursion
 
