@@ -13,6 +13,6 @@ console.log(addUpto(50));
 
 //show executing time
 var t1 = performance.now();
-addUpto(100000000);
+addUpto(300000000);
 var t2 = performance.now();
 console.log(`time : ${(t2-t1)/ 1000} seconds`)
